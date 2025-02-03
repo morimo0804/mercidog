@@ -237,7 +237,11 @@ blockquote {
 
 /* header */
 .header {
-    padding: (30em/14) 0;
+    position: fixed;
+    width: 100%;
+    padding: (20em/14) 0;
+    z-index: 997;
+    background: rgba(255, 249, 239, .7);
 
     &__inner {
         @include m-inner(2000px);
@@ -1336,7 +1340,7 @@ td[rowspan]:not([rowspan="1"]) {
 
 /* top */
 .top {
-    padding-bottom: (100em/14);
+    padding: (148em/14) 0 (100em/14);
 
     @include m-query(desktop) {
         padding-bottom: (180em/17);
@@ -2063,10 +2067,10 @@ td[rowspan]:not([rowspan="1"]) {
 -----------------------------------------------------------------------------*/
 .page-menu {
     .menu {
-        padding: (50em/14) 0 (120em/14);
+        padding: (148em/14) 0 (120em/14);
 
         @include m-query(desktop) {
-            padding: (80em/17) 0 (180em/17);
+            padding: (198em/17) 0 (180em/17);
         }
     }
 }
@@ -2075,10 +2079,10 @@ td[rowspan]:not([rowspan="1"]) {
 -----------------------------------------------------------------------------*/
 .page-lateespa {
     .lateespa {
-        padding: (50em/14) 0 (120em/14);
+        padding: (148em/14) 0 (120em/14);
 
         @include m-query(desktop) {
-            padding: (80em/17) 0 (180em/17);
+            padding: (198em/17) 0 (180em/17);
         }
 
         position: relative;
@@ -2147,12 +2151,25 @@ td[rowspan]:not([rowspan="1"]) {
 
 /* single.html
 -----------------------------------------------------------------------------*/
+.page-news {
+    .news {
+        margin-top: 0;
+        padding: (148em/14) 0 (120em/14);
+
+        @include m-query(desktop) {
+            padding: (198em/17) 0 (180em/17);
+        }
+    }
+}
+
+/* single.html
+-----------------------------------------------------------------------------*/
 /* single */
 .single {
-    padding: (50em/14) 0 (120em/14);
+    padding: (148em/14) 0 (120em/14);
 
     @include m-query(desktop) {
-        padding: (80em/14) 0 (180em/14);
+        padding: (198em/17) 0 (180em/17);
     }
 
     &__inner {

@@ -170,7 +170,11 @@ blockquote {
 
 /* header */
 .header {
-  padding: 2.1428571429em 0;
+  position: fixed;
+  width: 100%;
+  padding: 1.4285714286em 0;
+  z-index: 997;
+  background: rgba(255, 249, 239, 0.7);
 }
 .header__inner {
   width: 88.6363636364%;
@@ -1230,7 +1234,7 @@ td[rowspan]:not([rowspan="1"]) p {
 
 /* top */
 .top {
-  padding-bottom: 7.1428571429em;
+  padding: 10.5714285714em 0 7.1428571429em;
 }
 @media (768px <= width) {
   .top {
@@ -2136,23 +2140,23 @@ td[rowspan]:not([rowspan="1"]) p {
 /* menu.html
 -----------------------------------------------------------------------------*/
 .page-menu .menu {
-  padding: 3.5714285714em 0 8.5714285714em;
+  padding: 10.5714285714em 0 8.5714285714em;
 }
 @media (768px <= width) {
   .page-menu .menu {
-    padding: 4.7058823529em 0 10.5882352941em;
+    padding: 11.6470588235em 0 10.5882352941em;
   }
 }
 
 /* lateespa.html
 -----------------------------------------------------------------------------*/
 .page-lateespa .lateespa {
-  padding: 3.5714285714em 0 8.5714285714em;
+  padding: 10.5714285714em 0 8.5714285714em;
   position: relative;
 }
 @media (768px <= width) {
   .page-lateespa .lateespa {
-    padding: 4.7058823529em 0 10.5882352941em;
+    padding: 11.6470588235em 0 10.5882352941em;
   }
 }
 .page-lateespa .lateespa::before {
@@ -2222,13 +2226,25 @@ td[rowspan]:not([rowspan="1"]) p {
 
 /* single.html
 -----------------------------------------------------------------------------*/
+.page-news .news {
+  margin-top: 0;
+  padding: 10.5714285714em 0 8.5714285714em;
+}
+@media (768px <= width) {
+  .page-news .news {
+    padding: 11.6470588235em 0 10.5882352941em;
+  }
+}
+
+/* single.html
+-----------------------------------------------------------------------------*/
 /* single */
 .single {
-  padding: 3.5714285714em 0 8.5714285714em;
+  padding: 10.5714285714em 0 8.5714285714em;
 }
 @media (768px <= width) {
   .single {
-    padding: 5.7142857143em 0 12.8571428571em;
+    padding: 11.6470588235em 0 10.5882352941em;
   }
 }
 .single__inner {
