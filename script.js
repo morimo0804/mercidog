@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const animationBg = document.querySelector('.op-animation');
 
     // トップページのみアニメーション
-    const isTopPage = window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
+    const isTopPage = window.location.pathname === '/mercidog/' || window.location.pathname.endsWith('index.html');
 
     if (isTopPage) {
         setTimeout(() => {
