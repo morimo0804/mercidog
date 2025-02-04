@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (isTopPage) {
         setTimeout(() => {
-            body.classList.add('move-order', 'loaded');
-        }, 100);
+            body.classList.add('loaded');
+        }, 300);
 
         const lastElement = animationBg?.querySelector('.op-animation__element:last-child');
         if (lastElement) {

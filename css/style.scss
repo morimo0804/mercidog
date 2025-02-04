@@ -2201,13 +2201,13 @@ td[rowspan]:not([rowspan="1"]) {
     }
 
     .post__date {
-        margin: 0 0 (40em/14);
+        margin: 0 0 (20em/14);
         padding-bottom: (8em/14);
         border-bottom: 2px solid $color-srg;
 
         @include m-query(desktop) {
             font-size: f-rem(15);
-            margin: 0 0 (80em/15);
+            margin: 0 0 (50em/15);
         }
     }
 

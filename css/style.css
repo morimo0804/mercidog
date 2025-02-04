@@ -2279,14 +2279,14 @@ td[rowspan]:not([rowspan="1"]) p {
   }
 }
 .single .post__date {
-  margin: 0 0 2.8571428571em;
+  margin: 0 0 1.4285714286em;
   padding-bottom: 0.5714285714em;
   border-bottom: 2px solid #8F4309;
 }
 @media (768px <= width) {
   .single .post__date {
     font-size: 0.9375rem;
-    margin: 0 0 5.3333333333em;
+    margin: 0 0 3.3333333333em;
   }
 }
 .single .back-button {
