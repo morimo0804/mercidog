@@ -1608,12 +1608,13 @@ td[rowspan]:not([rowspan="1"]) {
         display: inline-block;
         padding: (40em/14) (30em/14);
         border: 1px solid $color-srg;
-        border-radius: 50px;
+        border-radius: 30px;
         text-align: left;
         background-color: #fff;
 
         @include m-query(desktop) {
             padding: (50em/17) (70em/17);
+            border-radius: 50px;
         }
     }
 }

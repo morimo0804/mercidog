@@ -1554,13 +1554,14 @@ td[rowspan]:not([rowspan="1"]) p {
   display: inline-block;
   padding: 2.8571428571em 2.1428571429em;
   border: 1px solid #8F4309;
-  border-radius: 50px;
+  border-radius: 30px;
   text-align: left;
   background-color: #fff;
 }
 @media (768px <= width) {
   .menu__list {
     padding: 2.9411764706em 4.1176470588em;
+    border-radius: 50px;
   }
 }
 
