@@ -242,6 +242,7 @@ blockquote {
     padding: (20em/14) 0;
     z-index: 997;
     background: rgba(255, 249, 239, .7);
+    border-radius: 0 0 30px 30px;
 
     &__inner {
         @include m-inner(2000px);
